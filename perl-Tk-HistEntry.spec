@@ -1,15 +1,15 @@
 %define upstream_name    Tk-HistEntry
-%define upstream_version 0.43
+%define upstream_version 0.46
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	An entry widget with history capability
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Tk/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/eserte/tk-histentry
+Source0:	https://cpan.metacpan.org/authors/id/S/SR/SREZIC/Tk-HistEntry-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
